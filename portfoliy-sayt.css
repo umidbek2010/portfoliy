@@ -1,5 +1,50 @@
+.ota{
+    border: 1px solid #000;
+    display: flex;
+    flex-direction;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom, rgb(102, 38, 220), rgb(245, 239, 239));
+    
+}
+
+.logo{
+    border: 1px solid #000;
+    margin: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
 .menu{
+    margin: 10px; 
+          
+}
+
+.u{
+    text-decoration: none;
+    margin: 10px;
+    color: black; 
+}
+
+.zu{
+    border: 1px solid #000;
     display: flex;
     justify-content: space-between;
+}
+
+.yz{
+    text-decoration: none;
+    color: #000;
+}
+body{
+    margin: 0;
+    padding: 0;
     
+}
+.hero{
+    height: 400px;
+    border: 1px solid #000;
+    background-image: url(dasturchi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
