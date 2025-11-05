@@ -1,14 +1,14 @@
 .ota{
-    border: 1px solid #000;
+    border: 1px solid #f1ecec;
     display: flex;
-    flex-direction;
+    flex-direction : row;
     justify-content: space-between;
-    background-image: linear-gradient(to bottom, rgb(102, 38, 220), rgb(245, 239, 239));
-    
+    align-items: center;
+    box-shadow: 2px 2px 10px rgb(175, 167, 184), -2px -2px 10px rgb(28, 8, 152);
+    background-color: #fff;
 }
 
 .logo{
-    border: 1px solid #000;
     margin: 10px;
     text-decoration: none;
     color: #000;
@@ -41,10 +41,55 @@ body{
     
 }
 .hero{
-    height: 400px;
-    border: 1px solid #000;
-    background-image: url(dasturchi.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.proyektlar{
+    padding: 15px 40px;
+    background-color: rgb(7, 3, 43);
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 2px 2px 10px rgba(25, 10, 124, 0.7), -2px -2px 10px rgba(41, 29, 146, 0.7);
+    color: white;
+
+}
+.cheti{
+    margin: 50px;
+}
+
+.cheti{
+    border: 1px solid #fcf7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(175, 167, 184), -2px -2px 10px rgb(28, 8, 152);
+    background-color: rgb(230, 233, 238);
+    
+}
+
+
+body{
+    background-color: rgb(2, 2, 33);
+}
+
+.Cantact{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+@media(max-width: 426px ){
+    .ota{
+        flex-direction: column;
+    }
+    .zu{
+        flex-direction: column;
+    }
+
 }
