@@ -1,0 +1,70 @@
+.navbar{
+    border: 1px solid #000;
+    display: flex;
+
+    flex-direction: ;
+    justify-content: space-between;
+}    
+
+
+.logo{
+    border: 1px solid #000;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.menu{
+    
+    margin: 10px;
+}
+.menu_a{
+    text-decoration: none;
+    margin: 10px;
+    
+}
+
+.login_button{
+    border: 1px solid #000;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border-color: rgb(43, 124, 97);
+    border-width: 2px;
+}
+
+.register_button{
+    border: 1px solid #000;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: rgb(50, 188, 73);
+    color: white;
+    border-color: rgb(50, 188, 73);
+    border-width: 2px;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgb(50, 188, 73);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.textlar{
+    display: table-caption;    
+
+}
+
+.ong-qism img {
+    width: 400px;            
+    height: auto;             
+    position: absolute;      
+    top: 80px;               
+    right: 0%
+                
+}
+
+
+
+
